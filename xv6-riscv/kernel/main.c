@@ -13,7 +13,7 @@ main()
   if(cpuid() == 0){
     consoleinit();
     printfinit();
-    printf("\n");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n");
     printf("xv6 kernel is booting\n");
     printf("\n");
     kinit();         // physical page allocator

@@ -92,7 +92,7 @@ sys_uptime(void)
   return xticks;
 }
 
-int sys_procs(void)
+uint64 sys_procs(void)
 {
     printf("process list\n");
 
@@ -124,8 +124,9 @@ int sys_procs(void)
 }
 
 
-int sys_writebigfile(void){ 
+uint64 sys_writebigfile(void){ 
 char *s="cmd : usertests writebig";
 printf("%s\n", s);
+
  return 23;
 }
